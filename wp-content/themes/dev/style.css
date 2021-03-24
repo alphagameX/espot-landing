@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-nav > .menu-item {
+  margin-right: 20px;
+}
+.navbar-nav > .menu-item:hover .sub-menu {
+  display: block;
+}
+.navbar-nav > .menu-item .sub-menu {
+  position: absolute;
+  display: none;
+}
+.navbar-nav > .menu-item .sub-menu > .menu-item {
+  margin-left: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main .sidebar {
+  width: 300px;
+}
+.main .sidebar .card {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

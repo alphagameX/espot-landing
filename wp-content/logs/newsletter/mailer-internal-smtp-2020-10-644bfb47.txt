@@ -1,0 +1,1 @@
+11-10-2020 10:25:02 - ERROR - v: 6.8.7 - m: 29,8 Mo, u: 1 - Invalid address:  (From): newsletter@localhost

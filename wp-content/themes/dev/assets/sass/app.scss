@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar-nav {
+    & > .menu-item {
+        margin-right: 20px;
+        &:hover {
+            .sub-menu {
+                display: block;
+            }
+        }
+        .sub-menu {
+            position: absolute;
+            display: none;
+            & > .menu-item {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+// front page 
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .content {
+
+    }
+    .sidebar {
+        width: 300px;
+        .card {
+            margin-bottom: 20px;
+        }
+    }
+}
